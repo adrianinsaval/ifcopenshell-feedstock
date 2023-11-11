@@ -34,7 +34,7 @@ source:
 
 build:
   number: 2
-  skip: True  # [py2k]
+  skip: True  # [py != 310]
 
 requirements:
   build:
