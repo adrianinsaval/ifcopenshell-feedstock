@@ -17,11 +17,11 @@ docker_image:
 gmp:
 - '6'
 hdf5:
-- 1.14.2
+- 1.14.3
 libboost_devel:
 - '1.82'
 libxml2:
-- '2.11'
+- '2'
 mpfr:
 - '4'
 occt:
