@@ -59,7 +59,7 @@ outputs:
             - cross-python_${{ target_platform }}
         - cmake
         - ninja
-        - swig >=4.1.1
+        - swig >=4.1.1,<4.4
         - ${{ stdlib("c") }}
         - ${{ compiler('c') }}
         - ${{ compiler('cxx') }}
