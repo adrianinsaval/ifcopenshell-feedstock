@@ -10,10 +10,12 @@ c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
 - '10.13'
+cgal_cpp:
+- '6.0'
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- freecad main
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
@@ -21,17 +23,17 @@ cxx_compiler_version:
 gmp:
 - '6'
 hdf5:
-- 1.14.6
+- 1.14.3
 libboost_devel:
-- '1.88'
-libxml2_devel:
-- '2.14'
+- '1.86'
+libxml2:
+- '2.13'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 mpfr:
 - '4'
 occt:
-- 7.9.1
+- 7.8.1
 pin_run_as_build:
   python:
     min_pin: x.x
