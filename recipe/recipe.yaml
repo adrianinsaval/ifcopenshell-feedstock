@@ -43,6 +43,8 @@ outputs:
       version: ${{ version }}
     build:
       number: ${{ build }}
+      skip:
+        - match(python, "!=3.11")
       script:
         - if: win
           then: bld_ifcopenshell.bat
@@ -111,7 +113,7 @@ outputs:
     build:
       noarch: python
       skip:
-        - match(python, "<3.10")
+        - match(python, "!=3.11")
         - build_platform != target_platform
       script: pip install src/bcf -v --no-deps --ignore-installed
     requirements:
