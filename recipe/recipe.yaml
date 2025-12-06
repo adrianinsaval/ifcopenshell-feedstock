@@ -67,7 +67,7 @@ outputs:
         - python
         - libboost-devel
         - occt
-        - libxml2-devel
+        - libxml2
         - cgal-cpp
         - hdf5
         - eigen
